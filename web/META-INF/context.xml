@@ -2,7 +2,7 @@
 <Context path="/OTC">
 <Resource name="jdbc/omega" auth="Container"
               type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
-              url="jdbc:oracle:thin:@omega_app"
-              username="paulo_vieira" password="IFLdell!2343" maxTotal="20" maxIdle="10"
+              url="jdbc:oracle:thin:@omega_adg"
+              username="username" password="password" maxTotal="20" maxIdle="10"
               maxWaitMillis="-1"/>
 </Context>
